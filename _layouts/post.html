@@ -13,7 +13,9 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
-      {{page.categories | capitalize | join: ', '}}
+    </p>
+    <p>
+      Tagged with {{ page.categories | join: ', ' }}
     </p>
   </header>
 
