@@ -67,6 +67,14 @@ After choosing a bitrate ladder and encoding at those profiles, you package the 
 
 Packaging refers to the act of breaking up a video into small segments or chunks so that each of these pieces can be individually requested and delivered to the players -- instead of downloading the entire movie in one go. 
 
-The player then understands how 
+The player uses this manifest to understand how the video is to be downloaded and rendered to the user. 
+
+Let's assume that the video has been encoded at the bitrate ladder shown above. When the player starts to playback the video, it senses the available bandwidth and let's assume its 20 mbps. This is much greater than the highest bitrate viz. 5 mbps. So, the player safely downloads the highest bitrate, 5 mbps for the first segment/chunk (perhaps, 6 seconds long). Then the player senses the bandwidth again and if it is still very high, it asks for the highest bandwidth again. 
+
+If the bandwidth suddenly drops to 5 mbps, then the player will probably request for the 4 mbps chunk from the server because it is risky to ask for the 5 mbps chunk. It then receives and plays back the 4 mbps chunk. 
+
+This process continues throughout the video. 
+
+There is an inte
 
 ![](/uploads/Adaptive_streaming_overview_bit_rates_2011_07_28.png)<center> Image credit: By Daseddon - Own work, CC BY-SA 3.0 </center>
