@@ -12,6 +12,16 @@ Weird way to name an industry, but, the name stuck.
 
 For a variety of reasons, the OTT industry witnessed explosive growth and now, everyone wants to be eat a piece of the OTT pie! 
 
+## What comes under the OTT umbrella? ##
+This is probably not a comprehensive list, but, when one talks about OTT, it includes :-
+
+* **streaming video on websites or apps** like Netflix, Hulu, YouTube, DAZN, Sky Sports, etc. 
+* using **internet-connected devices** like TVs (smart TVs) or devices like the Amazon Fire TV stick, Google Chromecast, or the insanely popular Roku streaming device. 
+* **watching live TV using internet streaming**: Popular examples are DirecTV, Sling TV, Hotstar (in India), and the list just goes on. 
+
+I am restricting this list to video consumption, but, one could talk about Spotify (and the likes) that deliver audio/music as being part of the OTT landscape as well. 
+
+
 ## Why is OTT so popular?
 OTT's popularity in my opinion comes down to one thing - convinience of being able to access your media (songs, movies, shows, podcasts, etc.) **anytime, anywhere, and on any device**.
 
@@ -20,10 +30,12 @@ With traditional cable television, you had to be in front of your television at 
 It is this freedom that caught the interest of the public and has lead to the likes of Netflix, Hulu, HBO, DAZN, YouTube becoming insanely popular. It has also caused a spurt in industries surrounding the OTT space like companies to encode, stream (packaging, CDNs, multi-CDN routing, federation), player companies, analytics, AI, recommendation engines, and the list goes on. It has also forced and lead to several mergers in the industry, lead to content producers launching their own services like Disney+
 
 
+
 ## So, will OTT replace linear TV?
 OTT is extremely popular and surveys clearly indicate that millennials associate with OTT services as "TV" rather than traditional television (linear). But, OTT comes with its own set of problems - like the cost of internet and the lack of high-speed broadband "everywhere", technical issues like start-up delays (a.k.a latency or join-time), buffering, and a fractured subscription landscape where every provider is trying to lower their prices and gather as many subscribers as possible. 
 
-There is a long way to go, but, make no mistakes about it - OTT is here to stay and rule! If you aren't on the bandwagon already, it's time you purchase a ticket, hop on, and enjoy the OTT ride ;) 
+
+**There is a long way to go, but, make no mistakes about it - OTT is here to stay and rule! If you aren't on the bandwagon already, it's time you purchase a ticket, hop on, and enjoy the OTT ride ;)**
 
 
 
