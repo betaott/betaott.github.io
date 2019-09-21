@@ -17,7 +17,7 @@ Weird way to name an industry, but, the name stuck.
 
 For a variety of reasons, the OTT industry witnessed explosive growth and now, everyone wants to be eat a piece of the OTT pie!
 
-***
+<br>
 
 ## What comes under the OTT umbrella?
 
@@ -29,7 +29,7 @@ This is probably not a comprehensive list, but, when one talks about OTT, it inc
 
 I am restricting this list to video consumption, but, one could talk about Spotify (and the likes) that deliver audio/music as being part of the OTT landscape as well.
 
-***
+<br>
 
 ## Why is OTT so popular?
 
@@ -45,7 +45,7 @@ It has also caused a spurt in industries surrounding the OTT space like companie
 
 The OTT revolution has also lead to several mergers in the industry and has lead to content producers launching their own services (like Disney+). Most traditional linear TV channels are also being forced to rethink their strategies and launch OTT channels (however, I am not sure that these are making money yet!)
 
-***
+<br>
 
 ## So, will OTT replace linear TV?
 
