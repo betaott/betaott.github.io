@@ -9,7 +9,9 @@ tags:
 - video streaming
 
 ---
-OTT stands for Over-The-Top and this name came about historically to refer to streaming media over the internet connection provided by cable providers. In the US, cable companies like AT&T and Comcast deliver traditional linear TV content via cable to the households and also provide internet access via the same cable. OTT came to refer to the access of television or video programming via that internet connection provided "on top" of the cable connection.
+**OTT stands for Over-The-Top and this name came about historically to refer to streaming media over the internet connection provided by cable providers.**
+
+In the US, cable companies like AT&T and Comcast deliver traditional linear TV content via cable to the households and also provide internet access via the same cable. OTT came to refer to the access of television or video programming via that internet connection provided "on top" of the cable connection.
 
 Weird way to name an industry, but, the name stuck.
 
