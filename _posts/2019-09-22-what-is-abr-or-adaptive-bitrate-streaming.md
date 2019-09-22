@@ -92,3 +92,5 @@ There is an interesting visualization of this on Wikipedia (shown below) that de
 * ABR stands for Adaptive Bit Rate. 
 * It refers to the adaptive nature of media delivery where the player requests media of different bitrates depending on the available bandwidth. 
 * It requires the cooperation of the encoders, packagers, CDN, players to make ABR a successful technology. 
+
+If you have anything to add to this discussion, please let me know in the comments section. Until next time, thank you and good bye! 
