@@ -11,13 +11,13 @@ tags:
 - ott
 
 ---
-**ABR stands for Adaptive Bit-Rate streaming and it broadly describes the process by which the quality and bitrate of video and audio are adaptively varied to ensure smooth delivery over the internet.**
+ABR stands for Adaptive Bit-Rate streaming and it broadly describes the process by which the quality and bitrate of video and audio are adaptively varied to ensure smooth delivery over the internet.
 
 It is very different from how CBR and VBR operate and an understanding of ABR will make the concepts of video streaming easy to understand.
 
 <br>
 
-## **Why do we need ABR?**
+## **Why do we need ABR streaming?**
 
 To understand the need for ABR, we first have to recognize that **internet streaming is best-effort**. There are no absolute guarantees on the speed/bandwidth, efficiency, error resilience of streaming over the internet.
 
@@ -33,7 +33,7 @@ Think of all the devices connecting to the same internet connection at the same 
 
 Now, you sit down to watch your favorite show and it is possible that your TV's player perceives a 3 mbps bandwidth and uses that to play the show. 10 minutes into your show, your wife decides to open Youtube on her iPad and switches on her favorite show.
 
-**Now what?**
+### **Now what?**
 
 The available bandwidth to your TV drops - perhaps to 2 mbps. Can your TV cope with this sudden change in bandwidth? It jumped from 3 mbps to 2 mbps - a 33% drop!
 
@@ -51,9 +51,9 @@ From the principles of ABR, the input video has multiple renditions - at differe
 
 #### Bitrate ladders, profiles, renditions
 
-Given a source video, the first thing is to encode it at several different **profiles or renditions** and this constitutes a **bitrate ladder.** 
+Given a source video, the first thing is to encode it at several different **profiles or renditions** and this constitutes a **bitrate ladder.**
 
-Example, you might encode a video at the following profiles. 
+Example, you might encode a video at the following profiles.
 
 1. 1080p 5.0 mbps
 2. 720p 4.0 mbps
@@ -61,7 +61,7 @@ Example, you might encode a video at the following profiles.
 4. 480p 2.0 mbps
 5. 270p 1 mbps
 
-You are free to choose any codec, bitrate, resolution, codec resolution, or frame-rate that you'd like, but you need to be cautious while making your choices. 
+You are free to choose any codec, bitrate, resolution, codec resolution, or frame-rate that you'd like, but you need to be cautious while making your choices.
 
 For example, if you are streaming to a part of the world where 99% of the population cannot get a bandwidth greater than 2 mbps, then it is a waste of time, money, and storage space to encode at bit rates higher than 2 mbps - correct?
 
@@ -69,28 +69,32 @@ After choosing a bitrate ladder and encoding at those profiles, you package the 
 
 #### Packaging
 
-Packaging refers to the act of breaking up a video into small segments or chunks so that each of these pieces can be individually requested and delivered to the players -- instead of downloading the entire movie in one go. 
+Packaging refers to the act of breaking up a video into small segments or chunks so that each of these pieces can be individually requested and delivered to the players -- instead of downloading the entire movie in one go.
 
-The player uses this manifest to understand how the video is to be downloaded and rendered to the user. 
+The player uses this manifest to understand how the video is to be downloaded and rendered to the user.
 
-#### Bandwidth adaptive playback
+#### Bandwidth-adaptive video playback
 
-Let's assume that the video has been encoded at the bitrate ladder shown above. When the player starts to playback the video, it senses the available bandwidth and let's assume its 20 mbps. This is much greater than the highest bitrate viz. 5 mbps. So, the player safely downloads the highest bitrate, 5 mbps for the first segment/chunk (perhaps, 6 seconds long). Then the player senses the bandwidth again and if it is still very high, it asks for the highest bandwidth again. 
+Let's assume that the video has been encoded at the bitrate ladder shown above. When the player starts to playback the video, it senses the available bandwidth and let's assume its 20 mbps. This is much greater than the highest bitrate viz. 5 mbps. So, the player safely downloads the highest bitrate, 5 mbps for the first segment/chunk (perhaps, 6 seconds long). Then the player senses the bandwidth again and if it is still very high, it asks for the highest bandwidth again.
 
-If the bandwidth suddenly drops to 5 mbps, then the player will probably request for the 4 mbps chunk from the server because it is risky to ask for the 5 mbps chunk. It then receives and plays back the 4 mbps chunk. 
+If the bandwidth suddenly drops to 5 mbps, then the player will probably request for the 4 mbps chunk from the server because it is risky to ask for the 5 mbps chunk. It then receives and plays back the 4 mbps chunk.
 
-This process continues throughout the video. 
+This process continues throughout the video.
 
-There are complex algorithms to control and determine the switching at the player ([BOLA is one of them](https://arxiv.org/pdf/1601.06748.pdf)). 
+What I've explained is a naive and simple approach to bandwidth estimation and quality/bitrate switching. Obviously, there are complex algorithms to control and determine the switching at the player ([BOLA is one of them](https://arxiv.org/pdf/1601.06748.pdf)).
 
-There is an interesting visualization of this on Wikipedia (shown below) that describes how the bandwidth (black line) varies and how the bitrates of the chunks requested by the player also adapts to the changes in the bandwidth. 
+There is an interesting visualization of this on Wikipedia (shown below) that describes how the bandwidth (black line) varies and how the bitrates of the chunks requested by the player also adapts to the changes in the bandwidth.
+
+<br>
 
 ![](/uploads/Adaptive_streaming_overview_bit_rates_2011_07_28.png)<center> Image credit: By Daseddon - Own work, CC BY-SA 3.0 </center>
 
-#### Conclusion 
+<br>
 
-* ABR stands for Adaptive Bit Rate. 
-* It refers to the adaptive nature of media delivery where the player requests media of different bitrates depending on the available bandwidth. 
-* It requires the cooperation of the encoders, packagers, CDN, players to make ABR a successful technology. 
+#### In conclusion,
 
-If you have anything to add to this discussion, please let me know in the comments section. Until next time, thank you and good bye! 
+* ABR stands for Adaptive Bit Rate.
+* It refers to the adaptive nature of media delivery where the player requests media of different bitrates depending on the available bandwidth.
+* It requires the cooperation of the encoders, packagers, CDN, players to make ABR a successful technology.
+
+If you have anything to add to this discussion, please let me know in the comments section. Until next time, thank you and good bye!
