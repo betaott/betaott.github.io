@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is ABR or Adaptive BitRate streaming?
+title: What is ABR or Adaptive Bitrate streaming?
 description: Let's understand what is ABR video streaming and how is it different
   from VBR and CBR
 category: knowledge
