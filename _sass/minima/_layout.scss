@@ -17,6 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  background-color:white;
 
   @include media-query($on-palm) {
     padding-right: 45px;
@@ -78,6 +79,7 @@
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
+    background-color: white;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -107,7 +109,8 @@
     .page-link {
       display: inline;
       padding: 0;
-
+      background-color: white;
+      
       &:not(:last-child) {
         margin-right: 20px;
       }
@@ -124,6 +127,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: #000;
 }
 
 .footer-heading {
@@ -139,7 +143,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: #fff;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -206,9 +210,9 @@
 .post-list {
   margin-left: 0;
   list-style: none;
-
+  background-color: white;
   > li {
-    margin-bottom: $spacing-unit;
+    /*margin-bottom: $spacing-unit;*/
   }
 }
 
