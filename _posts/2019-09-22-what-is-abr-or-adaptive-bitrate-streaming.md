@@ -98,3 +98,12 @@ There is an interesting visualization of this on Wikipedia (shown below) that de
 * It requires the cooperation of the encoders, packagers, CDN, players to make ABR a successful technology.
 
 If you have anything to add to this discussion, please let me know in the comments section. Until next time, thank you and good bye!
+
+
+
+<div class="related-posts" markdown="1">
+
+### Related Posts
+
+- [What is OTT video streaming?]({% post_url 2019-09-20-what-is-ott-video-streaming %}) 
+</div>

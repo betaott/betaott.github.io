@@ -1,11 +1,28 @@
-I"�
-<h2 id="the-need-for-hls-video-streaming">The need for HLS video streaming</h2>
+I"b<p>OTT stands for Over-The-Top and this name came about historically to refer to streaming media over the internet connection provided by cable providers.</p>
 
-<p>I’ve written about <a href="% post_url 2019-09-22-what-is-abr-or-adaptive-bitrate-streaming.md %">ABR or adaptive bitrate video streaming</a> in the past and discussed in detail what ABR is used for. To recap, adaptive bitrate video delivery is a way of delivering video where the player or client detects the available bandwidth and then modulates/adjusts the quality of the video stream between multiple bitrates and/or resolutions (typically referred to as a “bitrate ladder”)</p>
+<p>In the US, cable companies like AT&amp;T and Comcast deliver traditional linear TV content via cable to the households and also provide internet access via the same cable. OTT came to refer to the access of television or video programming via that internet connection provided “on top” of the cable connection.</p>
+
+<p>Weird way to name an industry, but, the name stuck.</p>
+
+<p>For a variety of reasons, the OTT industry witnessed explosive growth and now, everyone wants to be eat a piece of the OTT pie!</p>
 
 <p><br /></p>
 
-<h2 id="why-is-ott-so-popular-i-dont-know">Why is OTT so popular? I DONT KNOW</h2>
+<h2 id="what-comes-under-the-ott-umbrella">What comes under the OTT umbrella?</h2>
+
+<p>This is probably not a comprehensive list, but, when one talks about OTT, it includes :-</p>
+
+<ul>
+  <li><strong>streaming video on websites or apps</strong> like Netflix, Hulu, YouTube, DAZN, Sky Sports, etc.</li>
+  <li>using <strong>internet-connected devices</strong> like TVs (smart TVs) or devices like the Amazon Fire TV stick, Google Chromecast, or the insanely popular Roku streaming device.</li>
+  <li><strong>watching live TV using internet streaming</strong>: Popular examples are DirecTV, Sling TV, Hotstar (in India), and the list just goes on.</li>
+</ul>
+
+<p>I am restricting this list to video consumption, but, one could talk about Spotify (and the likes) that deliver audio/music as being part of the OTT landscape as well.</p>
+
+<p><br /></p>
+
+<h2 id="why-is-ott-so-popular">Why is OTT so popular?</h2>
 
 <p>OTT’s popularity in my opinion comes down to one thing - convenience of being able to access your media (songs, movies, shows, podcasts, etc.) - <strong>anytime, anywhere, and on any device</strong>.</p>
 
@@ -26,4 +43,13 @@
 <p>OTT is extremely popular and surveys clearly indicate that millennials associate with OTT services as “TV” rather than traditional television (linear). But, OTT comes with its own set of problems - like the cost of internet and the lack of high-speed broadband “everywhere”, technical issues like start-up delays (a.k.a latency or join-time), buffering, and a fractured subscription landscape where every provider is trying to lower their prices and gather as many subscribers as possible.</p>
 
 <p><strong>There is a long way to go, but, make no mistakes about it - OTT is here to stay and rule! If you aren’t on the bandwagon already, it’s time you purchase a ticket, hop on, and enjoy the OTT ride ;)</strong></p>
+
+<div class="related-posts">
+
+  <h3 id="related-posts">Related Posts</h3>
+
+  <ul>
+    <li><a href="/knowledge/2019/09/20/what-is-ott-video-streaming.html">ABR or adaptive bitrate video streaming</a></li>
+  </ul>
+</div>
 :ET

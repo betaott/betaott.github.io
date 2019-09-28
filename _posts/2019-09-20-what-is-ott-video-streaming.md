@@ -52,3 +52,12 @@ The OTT revolution has also lead to several mergers in the industry and has lead
 OTT is extremely popular and surveys clearly indicate that millennials associate with OTT services as "TV" rather than traditional television (linear). But, OTT comes with its own set of problems - like the cost of internet and the lack of high-speed broadband "everywhere", technical issues like start-up delays (a.k.a latency or join-time), buffering, and a fractured subscription landscape where every provider is trying to lower their prices and gather as many subscribers as possible.
 
 **There is a long way to go, but, make no mistakes about it - OTT is here to stay and rule! If you aren't on the bandwagon already, it's time you purchase a ticket, hop on, and enjoy the OTT ride ;)**
+
+
+
+<div class="related-posts" markdown="1">
+
+### Related Posts
+
+- [ABR or adaptive bitrate video streaming]({% post_url 2019-09-22-what-is-abr-or-adaptive-bitrate-streaming %}) 
+</div>
